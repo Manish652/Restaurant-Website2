@@ -1,0 +1,104 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+#position{
+    position: relative; 
+    bottom: 10px;
+}
+.navbar {
+    color: #e0e0e0;
+    background: linear-gradient(135deg, #a67018, #c27706);
+    
+}
+#special{
+   padding: 40px;
+   font-size: xx-large;
+   display: flex;
+   justify-content: center;
+}
+#pad{
+    padding-bottom:100px ;
+}
+#special:hover{
+    color: #2f2009;
+    cursor: pointer;
+}
+.btn-warning {
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+}
+
+.btn-outline-warning {
+    color: #ff8c00;
+    border-color: #ff8c00;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ff8c00;
+    color: #fff;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+footer {
+
+    background: linear-gradient(135deg, #232323, #0f0f0f);
+    color: #fff;
+}
+
+footer a {
+    color: #ff8c00;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#ko div div {
+    animation: shakeEffect 1s ease-in-out infinite;
+}
+
+@keyframes shakeEffect {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-2px);
+    }
+    50% {
+        transform: translateX(2px);
+    }
+    75% {
+        transform: translateX(-2px);
+    }
+}
+
+#loginForm,#signupForm{
+    box-shadow: 1px 4px 70px 5px #ff8c00;
+}
+
+#signupForm,#loginForm {
+    animation: shakeEffect 1s ease-in-out infinite;
+}
+
+@keyframes shakeEffect {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
